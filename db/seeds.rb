@@ -44,7 +44,7 @@ figure_list = {
     },
     "Ada Lovelace" => {
     },
-    "Linus Torvalds" => { 
+    "Linus Torvalds" => {
     }
   }
 
@@ -55,17 +55,17 @@ figure_list.each do |name, figure_hash|
 end
 
 
-title_list = {
-    "The Mayor" => {
-    },
-    "The Don" => {
-    },
-    "Mr. President" => {
-    }
-  }
-
-title_list.each do |name, figure_hash|
-  p = Title.new
-  p.name = name
-  p.save
-end
+# title_list = {
+#     "The Mayor" => {
+#     },
+#     "The Don" => {
+#     },
+#     "Mr. President" => {
+#     }
+#   }
+#
+# title_list.each do |name, figure_hash|
+#   p = Title.new
+#   p.name = name
+#   p.save
+# end
